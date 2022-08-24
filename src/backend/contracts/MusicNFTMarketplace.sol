@@ -1,4 +1,4 @@
-// spdx licence
+// SPDX-License-Identifier: UNLICENSED
 
 pragma solidity ^0.8.4;
 
@@ -41,6 +41,12 @@ contract MusicNFTMarketplace is ERC721("DAppFi","DAPP") , Ownable {
         }
 
     }
+
+    // update royalty fee of contract
+    function updateRoyaltyFee(uint256 _royaltyFee) external onlyOwner{
+        royaltyFee = _royaltyFee;
+    }
+
 
 
 }

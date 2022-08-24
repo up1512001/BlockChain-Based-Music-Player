@@ -1,0 +1,7 @@
+hardhat console do npx hardhat node
+npm run deploy to deploy
+npm run start to start server
+
+for testing do npx hardhat test 
+
+baseURI commented check later ok 
